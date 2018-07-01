@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=aGrid
+comment0.target=Tetrad(MyBoundedGrid)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Tetrad\n\ @param\ aGrid\ the\ grid\ for\ the\ tetrad\n
+comment1.params=
+comment1.target=Location[]\ removeBlocks()
+comment1.text=\n\ Removes\ blocks\ and\ returns\ an\ array\ of\ locations\ it\ removed\n\ @return\ array\ of\ locations\ it\ removed\n
+comment2.params=gridd\ locs
+comment2.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment2.text=\n\ Checks\ if\ locs\ is\ empty\n\ @param\ gridd\ \ the\ grid\ to\ check\n\ @param\ locs\ \ The\ array\ of\ locations\ to\ check\n
+comment3.params=gr\ locs
+comment3.target=void\ addToLocations(MyBoundedGrid,\ Location[])
+comment3.text=\n\ Adds\ the\ tetrad\ to\ a\ certain\ location\n\ @param\ gr\ the\ grid\ to\ put\ the\ location\ in\n\ @param\ locs\ \ the\ location\ to\ put\ the\ tetrad\ in\n
+comment4.params=deltaRow\ deltaCol
+comment4.target=boolean\ translate(int,\ int)
+comment4.text=\n\ Translate\ the\ tetrad\ to\ a\ position\n\ @param\ deltaRow\ \ the\ amount\ to\ translate\ the\ row\ down\n\ @param\ deltaCol\ \ the\ amount\ to\ translate\ the\ col\ right\n\ @return\ true\ if\ it\ can\ translate\ to\ the\ new\ position;\ otherwise\n\ \ \ \ \ \ \ \ \ false\n
+comment5.params=
+comment5.target=boolean\ rotate()
+comment5.text=\n\ Rotates\ around\ a\ pivot\ point.\ Pivot\ point\ is\ block\ 0\ on\ the\ tetrad.\n\ @return\ true\ if\ it\ can\ rotate\ to\ the\ new\ position\ else\ false\n
+numComments=6
